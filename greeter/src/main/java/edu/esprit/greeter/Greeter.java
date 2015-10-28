@@ -1,10 +1,16 @@
 package edu.esprit.greeter;
 
 public class Greeter {
+	
+	/**
+	 * 
+	 * @param name
+	 * @return "Hello" + name
+	 */
 	public String sayHello(String name){
 		if(name.equals("MAN"))
 		throw new IllegalArgumentException();
-		return "Hello"+ name;
-	}
+	return "Hello"+ name;
+}
 
 }
