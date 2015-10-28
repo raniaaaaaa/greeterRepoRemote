@@ -1,7 +1,10 @@
 package edu.esprit.greeter;
 
 public class Greeter {
+
 	public String var1;
+    
+
 	/**
 	 * 
 	 * @param name
