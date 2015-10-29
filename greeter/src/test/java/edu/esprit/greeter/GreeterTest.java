@@ -16,7 +16,7 @@ public class GreeterTest {
 	@Test
 	public void itShouldSayHelloWorld(){
 		String result = greeter.sayHello("world");
-		Assert.assertEquals("Hello world", result);
+		Assert.assertEquals("Helloworld", result);
 	}
 	@Test(expected=IllegalArgumentException.class)
 	public void itshouldRaiseException(){
