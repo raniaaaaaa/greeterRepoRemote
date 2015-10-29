@@ -24,13 +24,13 @@
 
 	</distributionManagement>
 	<build>
-	<plugin>
-      <groupId>org.apache.maven.plugin</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <configuration>
-      <testFailureIngnore>true</testFailureIngnore>
-      </configuration>
-	</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugin</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<configuration>
+				<testFailureIngnore>true</testFailureIngnore>
+			</configuration>
+		</plugin>
 	</build>
 
 </project>
