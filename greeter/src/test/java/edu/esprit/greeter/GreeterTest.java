@@ -14,9 +14,9 @@ public class GreeterTest {
 		greeter=new Greeter();
 	}
 	@Test
-	public void itShouldSayHelloWorld(){
-		String result = greeter.sayHello("world");
-		Assert.assertEquals("Helloworld", result);
+	public void itShouldSayHelloJAVA(){
+		String result = greeter.sayHello("JAVA");
+		Assert.assertEquals("Hello java1", result);
 	}
 	@Test(expected=IllegalArgumentException.class)
 	public void itshouldRaiseException(){

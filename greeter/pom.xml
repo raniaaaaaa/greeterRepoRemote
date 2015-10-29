@@ -23,5 +23,14 @@
 		</repository>
 
 	</distributionManagement>
+	<build>
+	<plugins>
+      <groupId>org.apache.maven.plugin</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <configuration>
+      <testFailureIngnore>true</testFailureIngnore>
+      </configuration>
+	</plugins>
+	</build>
 
 </project>
